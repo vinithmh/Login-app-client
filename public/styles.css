@@ -1,0 +1,38 @@
+form {
+  padding: 174px 0;
+  position: relative;
+  background-color: #8167cb;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+form input {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  background-color: #ffffff;
+  width: 250px;
+  border-radius: 15px;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
+
+form button {
+  appearance: none;
+  outline: 0;
+  margin: auto;
+  display: block;
+  background-color: #d09cfa;
+  border: 0;
+  padding: 10px 15px;
+  color: darkblue;
+  border-radius: 50px;
+  width: 150px;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: darkblue;
+}
